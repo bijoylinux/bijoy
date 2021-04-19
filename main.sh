@@ -5,4 +5,3 @@ chmod 777 /var/lib/dpkg/info/m17n-db.list
 echo "/usr/share/m17n//bn-bijoyUnicode.mim" >> /var/lib/dpkg/info/m17n-db.list
 echo "/usr/share/m17n/bn-bijoyClassic.mim" >> /var/lib/dpkg/info/m17n-db.list
 
-ibus restart

@@ -5,11 +5,11 @@ Bijoy is installed by running one of the following commands in your terminal. Yo
 #### via curl
 
 ```shell
-sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/rozari0/bijoy/master/install.sh)"
+sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/bijoylinux/bijoy/master/install.sh)"
 ```
 
 #### via wget
 
 ```shell
-sudo bash -c "$(wget https://raw.githubusercontent.com/rozari0/bijoy/master/install.sh -O -)"
+sudo bash -c "$(wget https://raw.githubusercontent.com/bijoylinux/bijoy/master/install.sh -O -)"
 ```

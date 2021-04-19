@@ -1,8 +1,4 @@
-apt install ibus-m17n
-
-chmod 777 /var/lib/dpkg/info/m17n-db.list
-
-echo "/usr/share/m17n//bn-bijoyUnicode.mim" >> /var/lib/dpkg/info/m17n-db.list
-echo "/usr/share/m17n/bn-bijoyClassic.mim" >> /var/lib/dpkg/info/m17n-db.list
-
-ibus restart
+git clone https://github.com/bijoylinux/bijoy
+cd bijoy
+sudo bash main.sh
+rm -rf ../bijoy
